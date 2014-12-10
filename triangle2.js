@@ -1,3 +1,5 @@
+// Requires triangle2.txt to have a new line at EOF
+
 'use strict';
 
 var fs = require('fs'),
@@ -5,7 +7,7 @@ var fs = require('fs'),
     i = 0, sum = 0;
 
 readline.createInterface({
-  input: fs.createReadStream('./triangle.txt'),
+  input: fs.createReadStream('./triangle2.txt'),
   output: process.stdout,
   terminal: false
 })
